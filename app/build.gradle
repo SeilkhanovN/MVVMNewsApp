@@ -5,13 +5,12 @@ apply plugin: 'kotlin-kapt'
 apply plugin: "androidx.navigation.safeargs.kotlin"
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.androiddevs.mvvmnewsapp"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
 
